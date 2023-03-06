@@ -1,0 +1,129 @@
+h3 {
+    color: #45b29a;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif';
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionone {
+    width: 100;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    &_firstarticle {
+        background-color: #2B2D42;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 30vh;
+
+        &-text {
+            color: #EDF2F4;
+        }
+    }
+
+    &_secondarticle {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        justify-content: center;
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}
+
+.sectiontwo {
+    display: block;
+
+    &_thirdarticle {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+.sectionthree {
+    background-color: #2B2D42;
+    color: #EDF2F4;
+    text-align: center;
+}
+
+.img-glasses {
+    width: 40%;
+    height: 80%;
+    border-radius: 100%;
+    margin-top: 2vh;
+}
+
+.salute {
+    margin-top: 8vh;
+    color: #EDF2F4;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+}
+
+.title {
+    color: #EDF2F4;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.article_title {
+    font-size: 50px;
+    color: #45b29a;
+    font-family: cursive;
+    font-style: bold;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.designer-img {
+    width: 40%;
+}
+
+.developer-img {
+    width: 40%;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.bottom-title {
+    margin-top: 10%;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-style: bold;
+    color: #EDF2F4;
+}
+
+.bottomarticle-title {
+    color: #EDF2F4;
+    font-size: 25px;
+}
+
+.bottomarticle-text {
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+@import "./core/reset";
+@import "./core/var";
+@import "./sections/header";
+@import "./core/fonts";
+@import "./sections/main";
+@import "./sections/footer";
+
+body {
+    background-color: #e0ebe8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.experience {
+    @import "./experience";
+}
+
+@include tablet(800px);
+@include largeTablet(920px);
+@include desktop(1024px);
+@include largeScreen(1400px);
