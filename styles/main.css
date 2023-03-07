@@ -316,7 +316,6 @@ body {
 }
 .experience h1 {
   font-size: 50px;
-  margin-top: 5%;
   font-weight: 700;
   color: #EDF2F4;
 }
@@ -347,6 +346,7 @@ body {
   width: 100%;
   background-color: #2B2D42;
   padding-bottom: 5%;
+  padding-top: 5%;
 }
 .experience .tasks {
   font-size: 20px;
