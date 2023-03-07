@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" class="experience">
+<html lang="es" class="contact">
 
 <head>
     <meta charset='utf-8'>
@@ -25,20 +25,72 @@
             <ul class="header_nav-ul">
                 <li class="header_nav-ul-li"><a href="./index.html#top" class="links"><span
                             class="icon-home3  item"></span></span>Inicio</a></li>
-                <li class="header_nav-ul-li"><a href="#top" class="links"><span
+                <li class="header_nav-ul-li"><a href="./experencia.html#top" class="links"><span
                             class="icon-briefcase item"></span></span>Experiencia</a></li>
                 <li class="header_nav-ul-li"><a href="./index.html#offer" class="links"><span
                             class="icon-book item"></span></span>Como te puedo ayudar</a></li>
-                <li class="header_nav-ul-li"><a href="#contact" class="links"><span
+                <li class="header_nav-ul-li"><a href="#top" class="links"><span
                             class="icon-dice item"></span></span>Contacto</a></li>
             </ul>
         </nav>
     </header>
-     <main class="content">
+    <main class="content">
+        <section class="contactsection">
+            <article class="contactsection_logo">
+                <div class="contactsection_logo-img">
+                    <img src="./images/logo.png" alt="logo" class="contact-logo">
+
+                </div>
+            </article>
+            <article class="contactsection_article">
+                <div class="contactsection_article-container">
+                    <form method="POST" class="form">
+                        <h2>Ponte en contacto conmigo</h2>
+                        <div class="textform">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="textform">
+                            <label for="surname">Apellidos</label>
+                            <input type="text" id="surname">
+                        </div>
+                        <div class="textform">
+                            <label for="email">Email de contacto</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="textform">
+                            <label for="phone">Número de teléfono</label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="message">
+                            <label for="message">Mensaje</label>
+                            <textarea name="message" id="message" cols="10" rows="5"></textarea>
+                        </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>¿Por qué me escribes?</legend>
+                            <div class="options">
+                                <input type="radio" name="reason" id="work">
+                                <label for="work">Ofrecerme trabajo</label>
+                            </div>
+                            <div class="options">
+                                <input type="radio" name="reason" id="project">
+                                <label for="project">Pedirme colaborar en un proyecto</label>
+                            </div>
+                            <div class="options">
+                                <input type="radio" name="reason" id="coffee">
+                                <label for="coffee">Tomarte un cafe conmigo</label>
+                            </div>
+                        </fieldset>
+                        <input type="submit" value="Sign up" class="submit" />
+                    </form>
+                </div>
+            </article>
+        </section>
     </main>
     <footer id="contact">
         <div class="content-wrap">
-            <h2>¡Mantengámonos en contacto!</h2>
+            <h2 class="footer-title">¡Mantengámonos en contacto!</h2>
 
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">

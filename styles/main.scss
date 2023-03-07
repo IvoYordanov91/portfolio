@@ -19,6 +19,9 @@ body {
 .experience {
     @import "./experience";
 }
+.contact {
+    @import "./contact";
+}
 
 @include tablet(800px);
 @include largeTablet(920px);

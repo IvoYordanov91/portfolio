@@ -420,6 +420,126 @@ body {
   }
 }
 
+.contact h2 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2B2D42;
+  text-align: center;
+}
+.contact .contactsection {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: linear-gradient(rgba(192, 201, 216, 0.8), rgba(141, 153, 174, 0.5)), url(../images/keyboard.jpg) no-repeat fixed;
+  background-size: cover;
+}
+.contact .contactsection_logo {
+  width: 100%;
+  background-color: #2B2D42;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.contact .contactsection_logo-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact .contactsection_article {
+  width: 100%;
+}
+.contact .contactsection_article-container {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact .contact-logo {
+  width: 30%;
+  align-self: center;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: #2B2D42;
+  margin-bottom: 10%;
+}
+.contact .textform {
+  display: flex;
+  flex-direction: column;
+}
+.contact label {
+  color: #2B2D42;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.contact fieldset {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.contact legend {
+  color: #2B2D42;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.contact .footer-title {
+  color: #EDF2F4;
+}
+.contact input[type=button], .contact input[type=submit], .contact input[type=reset] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin-top: 10%;
+  cursor: pointer;
+}
+.contact .message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+@media only screen and (min-width: 600px) {
+  .contact .textform {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+  }
+  .contact label {
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .contact .contact-logo {
+    width: 12%;
+  }
+  .contact input[type=button], .contact input[type=submit], .contact input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 5%;
+    cursor: pointer;
+  }
+  .contact .form {
+    margin-bottom: 5%;
+  }
+  .contact fieldset {
+    margin-top: 5%;
+  }
+}
+
 @media only screen and (min-width: 800px) and (max-width: 920px) {
   .header_menu {
     display: none;

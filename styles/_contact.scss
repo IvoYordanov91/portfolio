@@ -1,0 +1,120 @@
+h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B2D42;
+    text-align: center;
+}
+.contactsection {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: linear-gradient(rgba(192, 201, 216, 0.8), rgba(141, 153, 174, 0.5)),
+	url(../images/keyboard.jpg) no-repeat fixed;
+	background-size: cover;
+    &_logo {
+        width: 100%;
+        background-color: #2B2D42;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        &-img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    &_article {
+        width: 100%;
+        &-container {
+            width: 100%;
+            align-self: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+.contact-logo {
+    width: 30%;
+    align-self: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: #2B2D42;
+    margin-bottom: 10%;
+}
+.textform {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    color: #2B2D42;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+fieldset {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+legend {
+    color: #2B2D42;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.footer-title {
+    color: #EDF2F4;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+@media only screen and (min-width: 600px) {
+    .textform {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;
+    }
+    label {
+        margin-top: 3px;
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .contact-logo {
+        width: 12%;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin-top: 5%;
+        cursor: pointer;
+    }
+    .form {
+        margin-bottom: 5%;
+    }
+    fieldset {
+        margin-top: 5%;
+    }
+}
