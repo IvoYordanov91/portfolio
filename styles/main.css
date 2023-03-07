@@ -151,7 +151,7 @@ ol, ul {
 }
 
 h3 {
-  color: #45b29a;
+  color: #2B2D42;
   font-size: 40px;
   font-family: cursive;
   font-weight: 700;
@@ -161,6 +161,7 @@ h3 {
 p {
   font-size: 25px;
   font-family: 'adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif';
+  color: #2B2D42;
   font-weight: 400;
 }
 
@@ -233,7 +234,7 @@ p {
 
 .article_title {
   font-size: 50px;
-  color: #45b29a;
+  color: #2B2D42;
   font-family: cursive;
   font-style: bold;
   font-weight: 700;
@@ -270,6 +271,11 @@ p {
 
 .bottomarticle-text {
   font-size: 20px;
+  color: #EDF2F4;
+}
+
+.copyright {
+  color: #EDF2F4;
 }
 
 footer {
@@ -308,6 +314,12 @@ body {
   font-size: 25px;
   margin-top: 10%;
 }
+.experience h1 {
+  font-size: 50px;
+  margin-top: 5%;
+  font-weight: 700;
+  color: #EDF2F4;
+}
 .experience p {
   margin-left: 5%;
   margin-right: 5%;
@@ -325,6 +337,17 @@ body {
   padding-top: 5%;
   margin-bottom: 5%;
 }
+.experience .sectionexp_article-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.experience .maintitle {
+  width: 100%;
+  background-color: #2B2D42;
+  padding-bottom: 5%;
+}
 .experience .tasks {
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -334,13 +357,66 @@ body {
 .experience .uppercase {
   text-transform: uppercase;
 }
+.experience .logo-eulerian {
+  width: 50%;
+}
+.experience .logo-excem {
+  width: 50%;
+}
+.experience .logo-nexthink {
+  width: 50%;
+}
+.experience .logo-sia {
+  width: 50%;
+}
+.experience .logo-artica {
+  width: 50%;
+}
 @media only screen and (min-width: 800px) {
   .experience .sectionexp_article {
     padding-top: 2%;
     margin-bottom: 2%;
   }
+  .experience .sectionexp_article-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    justify-content: center;
+    align-self: normal;
+  }
+  .experience .sectionexp_article-textcontainer {
+    margin-left: 25%;
+  }
+  .experience .logo-eulerian {
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
+  .experience .logo-excem {
+    width: 15%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
+  .experience .logo-nexthink {
+    width: 15%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
+  .experience .logo-sia {
+    width: 15%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
+  .experience .logo-artica {
+    width: 15%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
   .experience h3 {
-    margin-top: 5%;
+    margin-top: 4%;
+  }
+  .experience .top-title {
+    margin-top: 4%;
   }
 }
 

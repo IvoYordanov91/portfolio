@@ -3,6 +3,13 @@ h3 {
     margin-top: 10%;
 }
 
+h1 {
+    font-size: 50px;
+    margin-top: 5%;
+    font-weight: 700;
+    color: #EDF2F4;
+}
+
 p {
     margin-left: 5%;
     margin-right: 5%;
@@ -21,7 +28,20 @@ p {
     &_article {
         padding-top: 5%;
         margin-bottom: 5%;
+
+        &-container {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-bottom: 20px;
+        }
     }
+}
+
+.maintitle {
+    width: 100%;
+    background-color: #2B2D42;
+    padding-bottom: 5%;
 }
 
 .tasks {
@@ -30,17 +50,84 @@ p {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .uppercase {
     text-transform: uppercase;
+}
+
+.logo-eulerian {
+    width: 50%;
+}
+
+.logo-excem {
+    width: 50%;
+}
+
+.logo-nexthink {
+    width: 50%;
+}
+
+.logo-sia {
+    width: 50%;
+}
+
+.logo-artica {
+    width: 50%;
 }
 
 @media only screen and (min-width: 800px) {
     .sectionexp_article {
         padding-top: 2%;
         margin-bottom: 2%;
+
+        &-container {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0;
+            justify-content: center;
+            align-self: normal;
+        }
+
+        &-textcontainer {
+            margin-left: 25%;
+        }
+    }
+
+    .logo-eulerian {
+        width: 20%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+
+    .logo-excem {
+        width: 15%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+
+    .logo-nexthink {
+        width: 15%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+
+    .logo-sia {
+        width: 15%;
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+
+    .logo-artica {
+        width: 15%;
+        margin-right: 5%;
+        margin-top: 4%;
     }
 
     h3 {
-        margin-top: 5%;
+        margin-top: 4%;
+    }
+
+    .top-title {
+        margin-top: 4%;
     }
 }
