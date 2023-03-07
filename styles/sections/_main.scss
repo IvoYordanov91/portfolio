@@ -27,6 +27,7 @@ p {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
         height: 30vh;
 
         &-text {
@@ -65,14 +66,10 @@ p {
 }
 
 .img-glasses {
-    width: 30%;
-    height: 80%;
-    border-radius: 100%;
-    margin-top: 2vh;
+    width: 20%;
 }
 
 .salute {
-    margin-top: 8vh;
     color: #EDF2F4;
     font-family: 'Caveat', cursive;
     font-size: 50px;

@@ -179,6 +179,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   height: 30vh;
 }
 .sectionone_firstarticle-text {
@@ -212,14 +213,10 @@ p {
 }
 
 .img-glasses {
-  width: 30%;
-  height: 80%;
-  border-radius: 100%;
-  margin-top: 2vh;
+  width: 20%;
 }
 
 .salute {
-  margin-top: 8vh;
   color: #EDF2F4;
   font-family: "Caveat", cursive;
   font-size: 50px;
@@ -357,7 +354,6 @@ body {
   }
   .header_nav {
     width: 100%;
-    height: 10%;
     margin: 0 auto 20% auto;
     position: fixed;
   }
@@ -373,10 +369,7 @@ body {
     padding-top: 5%;
   }
   .img-glasses {
-    width: 20%;
-    height: 80%;
-    border-radius: 100%;
-    margin-top: 2vh;
+    width: 11%;
   }
   .sectiontwo_thirdarticle-items {
     display: flex;
@@ -406,7 +399,6 @@ body {
   }
   .header_nav {
     width: 100%;
-    height: 10%;
     margin: 0 auto 20% auto;
     position: fixed;
   }
@@ -423,9 +415,6 @@ body {
   }
   .img-glasses {
     width: 11%;
-    height: 80%;
-    border-radius: 100%;
-    margin-top: 2vh;
   }
   .sectiontwo_thirdarticle-items {
     display: flex;
@@ -472,9 +461,6 @@ body {
   }
   .img-glasses {
     width: 11%;
-    height: 80%;
-    border-radius: 100%;
-    margin-top: 2vh;
   }
   .sectiontwo_thirdarticle-items {
     display: flex;
@@ -520,10 +506,7 @@ body {
     padding-top: 55px;
   }
   .img-glasses {
-    width: 11%;
-    height: 80%;
-    border-radius: 100%;
-    margin-top: 2vh;
+    width: 7%;
   }
   .sectiontwo_thirdarticle-items {
     display: flex;
