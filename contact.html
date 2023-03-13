@@ -19,17 +19,17 @@
 <body>
     <header class="header">
         <div class="header_menu">
-            <a href="#" class="header_menu-bt"><span class="icon-menu item sandwich-icon"></span>Menu</a>
+            <a href="#" class="header_menu-bt" onclick="menuToggle()"><span class="icon-menu item sandwich-icon"></span>Menu</a>
         </div>
         <nav class="header_nav">
             <ul class="header_nav-ul">
-                <li class="header_nav-ul-li"><a href="./index.html#top" class="links"><span
+                <li class="header_nav-ul-li" id="routes"><a href="./index.html#top" class="links" onclick="menuToggle()"><span
                             class="icon-home3  item"></span></span>Inicio</a></li>
-                <li class="header_nav-ul-li"><a href="./experencia.html#top" class="links"><span
+                <li class="header_nav-ul-li" id="routes"><a href="./experencia.html#top" class="links" onclick="menuToggle()"><span
                             class="icon-briefcase item"></span></span>Experiencia</a></li>
-                <li class="header_nav-ul-li"><a href="./index.html#offer" class="links"><span
-                            class="icon-book item"></span></span>Como te puedo ayudar</a></li>
-                <li class="header_nav-ul-li"><a href="#top" class="links"><span
+                <li class="header_nav-ul-li" id="routes"><a href="./index.html#offer" class="links" onclick="menuToggle()"><span
+                            class="icon-book item"></span></span>Cómo te puedo ayudar</a></li>
+                <li class="header_nav-ul-li" id="routes"><a href="#top" class="links" onclick="menuToggle()"><span
                             class="icon-dice item"></span></span>Contacto</a></li>
             </ul>
         </nav>
@@ -103,7 +103,6 @@
             <p class="copyright">Copyright 2023 Ivo Yordanov Damyanovski</p>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="./scripts/menu.js"></script>
 </body>
 
