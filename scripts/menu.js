@@ -1,4 +1,5 @@
 var w = window.innerWidth;
+
 function menuToggle() {
     var links = document.getElementsByClassName("header_nav-ul-li");
     for (var i=0; i<links.length;i++){
@@ -9,13 +10,3 @@ function menuToggle() {
           }
     }
   }
-
-  function menuDisplay() {
-    if (w >= 800){
-        for (var i=0; i<links.length;i++){ 
-         links[i].style.display = "flex";
-        }
-     }
-  }
-
-  window.addEventListener('resize', menuDisplay());
